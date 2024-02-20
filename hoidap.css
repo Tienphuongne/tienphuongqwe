@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(0, 0, 61) ;
+    display: flex;
+    img{
+        width: 150px;
+        margin-left: 50px;
+        margin-top: 25px;
+
+    }
+    ul{
+        width: 700px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin-top: 40px;
+        margin-left: 150px;
+
+        li a{
+          text-decoration: none;
+          font-size: 15px;
+          color: white;
+
+        }
+        a:hover{
+            color: brown;
+        }
+    }
+}
+section{
+    margin-top: 50px;
+    .tex-fon-1{
+        margin-left: 250px;
+       h1{
+        color: orange;
+        font-style: initial;
+       }
+       h2{
+        margin-top: 20px;
+        font-style: oblique;
+        margin-left: 40px;
+       }
+    }
+}
+article{
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+   
+    p{
+        color: white;
+    }
+
+}
+address{
+   display: flex;
+   margin-top: 40px;
+   margin-left: 250px;
+   input{
+        width: 300px;
+        height: 30px;
+   }
+   button{
+    width: 50px;
+    color: white;
+    background-color: black;
+   }
+}
+footer{
+    width: 100%;
+    height: 350px;
+    margin-top: 8px;
+    background-color: rgb(0, 0, 89);
+    display: flex;
+}
+footer article{
+    width: 50%;
+    height: 300px;
+    position: relative;
+    margin-left: 50px;
+   margin-top: 50px;
+}
+footer article .box-uy{
+ display: flex;
+ margin-top: 30px;
+ gap: 10px;
+}
+footer article .btn{
+    position: relative;
+    margin-bottom: 50px;
+}
+footer article .tex-footer-btn1{
+    margin-top: 30px;
+    .tex-1{
+        margin-top: 10px;
+        h4{
+            font-size: 20px;
+            color: orangered;
+            font-weight: 200;
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+}
+footer address{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+   position: relative;
+   bottom: 8px;
+}
+footer address h2{
+    color: orangered;
+}
+footer address p{
+    color: white;
+    font-size: 12px;
+}
+footer address a{
+    color: white;
+    font-size: 13px;
+}
+footer address .nbc-tex{
+    margin-top: 8px;
+}

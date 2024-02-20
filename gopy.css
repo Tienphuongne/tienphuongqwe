@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(0, 0, 61) ;
+    display: flex;
+    img{
+        width: 150px;
+        margin-left: 50px;
+        margin-top: 25px;
+
+    }
+    ul{
+        width: 700px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin-top: 40px;
+        margin-left: 150px;
+
+        li a{
+          text-decoration: none;
+          font-size: 15px;
+          color: white;
+
+        }
+        a:hover{
+            color: brown;
+        }
+    }
+}
+section{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: center;
+}
+section .gop-y{
+    width: 80%;
+    border: 1px solid black;
+    height: 480px;
+    
+}
+
+section .gop-y .gop-y1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+section .gop-y .gop-y1 input{
+    height: 30px;
+}
+
+section .gop-y .gop-y2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+section .gop-y .gop-y2 input{
+    height: 30px;
+}
+
+section .gop-y .noi-dung-text{
+    width: 70%;
+  margin-top: 40px;
+  height: 240px;
+  margin-left: 90px;
+}
+section .gop-y .noi-dung-text textarea{
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+}
+
+section .gop-y .khu-vuc-gop-y-y p{
+    margin-left: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(0, 0, 89);
+    display: flex;
+}
+footer article{
+    width: 50%;
+    height: 300px;
+    position: relative;
+    margin-left: 150px;
+   margin-top: 50px;
+}
+footer article .box-uy{
+ display: flex;
+ margin-top: 30px;
+ gap: 10px;
+}
+footer article .btn{
+    position: relative;
+    margin-bottom: 50px;
+}
+footer article .tex-footer-btn1{
+    margin-top: 30px;
+    .tex-1{
+        margin-top: 10px;
+        h4{
+            font-size: 20px;
+            color: orangered;
+            font-weight: 200;
+        }
+        p{
+            font-size: 13px;
+            color: white;
+        }
+    }
+}
+footer address{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+   margin-top: 50px;
+}
+footer address h2{
+    color: orangered;
+}
+footer address p{
+    color: white;
+    font-size: 12px;
+}
+footer address a{
+    color: white;
+    font-size: 13px;
+}
+footer address .nbc-tex{
+    margin-top: 8px;
+}
+.tex-chu{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(221, 221, 221);
+    h2{
+        font-size: 40px;
+        text-align: center;
+    }
+}
